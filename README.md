@@ -1,6 +1,6 @@
 # speech-emotion-recognition-done using cnn-lstm networks 
 
-Dataset used is 4 classes from the EMODB Berlin Database for emotions
+Dataset used is 4 classes from the EMODB Berlin Emotional Speech Database 
 
 step 1: visualising an input audio sample which is done using input.py
 
