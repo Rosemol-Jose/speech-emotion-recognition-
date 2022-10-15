@@ -1,9 +1,4 @@
-"""
 
-author: harry-7
-
-This file contains functions to read the data files from the given folders and generate the data interms of features
-"""
 import numpy as np
 import math
 import scipy.io.wavfile as wav
@@ -65,4 +60,4 @@ def get_data(dataset_path, flatten=True, mfcc_len=39):
     x_train, x_test, y_train, y_test = train_test_split(data, labels, test_size=0.2, random_state=42)
    # print(x_train, x_test, y_train, y_test)
     return np.array(x_train), np.array(x_test), np.array(y_train), np.array(y_test)
-get_data(dataset_path, flatten=True, mfcc_len=39)
+
