@@ -1,5 +1,5 @@
-# This project is trying to plot mfcc and spectogram of speech and derived signals of speech-emotion-recognition done using cnn-lstm networks 
-#Also finds the accuracy 
+This project is trying to plot mfcc and spectogram of speech and derived signals of speech-emotion-recognition done using cnn-lstm networks and find its accuracy
+
 
 Dataset used is 4 classes from the EMODB Berlin Emotional Speech Database 
 
